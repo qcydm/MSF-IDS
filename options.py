@@ -1,6 +1,6 @@
 import argparse
 import torch
-from SelfSupervised_Representation_Augmentor.SEComm import (
+from Self_Supervised_Representation_Augmentor.SEComm import (
     Encoder,
     Model,
     drop_feature,
@@ -8,7 +8,7 @@ from SelfSupervised_Representation_Augmentor.SEComm import (
     ClusterModel,
     MergeLayer,
 )
-from SelfSupervised_Representation_Augmentor.FeatureExtractor import FeatureExtractor
+from Self_Supervised_Representation_Augmentor.FeatureExtractor import FeatureExtractor
 from torch_geometric.nn import TGNMemory
 from torch_geometric.nn.models.tgn import (
     IdentityMessage,
