@@ -16,7 +16,7 @@ import torch.nn as nn
 from torch_geometric.datasets import Planetoid, Coauthor
 from torch_geometric.utils import dropout_adj
 from torch_geometric.nn import GCNConv
-from SelfSupervised_Representation_Augmentor.SEComm import Encoder, Model, drop_feature, SelfExpr, ClusterModel
+from Self_Supervised_Representation_Augmentor.SEComm import Encoder, Model, drop_feature, SelfExpr, ClusterModel
 from utils.eval import label_classification
 from utils.sec_util import enhance_sim_matrix, post_proC, err_rate, best_map, load_wiki
 from sklearn.decomposition import PCA
@@ -39,13 +39,13 @@ from torch_geometric.nn.models.tgn import (
     LastAggregator,
     LastNeighborLoader,
 )
-from SelfSupervised_Representation_Augmentor.MGD import MGD
+from Self_Supervised_Representation_Augmentor.MGD import MGD
 from utils.LOSS import Loss
 from utils.MLP import MLPPredictor
 from utils.funcs import *
 from sklearn.metrics import f1_score
 from torch.utils.tensorboard import SummaryWriter
-from SelfSupervised_Representation_Augmentor.SEComm import MergeLayer
+from Self_Supervised_Representation_Augmentor.SEComm import MergeLayer
 from options import Args
 
 writer=SummaryWriter("tsb_log")
