@@ -1,5 +1,5 @@
 # README.md
-# Unsupervised Intrusion Detection based on Multi-Scale Spatial-Frequency Lenses
+# Mining Multi-Scale Spatial-Frequency Clues for Unsupervised Intrusion Detection
 
 ## Overview
 This project introduces an innovative Unsupervised Intrusion Detection System (UNIDS) MSF-IDS that employs a multi-scale spatial-frequency lens approach for the identification of network anomalies. Builting on the PyTorch framework, MSF-IDS is designed for unsupervised intrusion detection without using any labeled traffic data, making it highly adaptable to various wireless network environments. A key feature of MSF-IDS is its ability to analyze network traffic through a combination of spatial and frequency encoders, which provide a deeper understanding of the network's structure and dynamics.We also provide a NAPH application for visualization. Our developed NAPH can also be seemlessly incorporated into your own dee p learning models. NAPH make it possible to combile your approaches with the cutting-edge topological theory for spatial and temporal data mining.  
