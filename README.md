@@ -96,6 +96,15 @@ You can download above datasets used in this paper from the following URLs: [UQ 
 Modify the `args_set` in the script `options` to configure the system parameters according to your requirements，including changing datasets.
 
 #### Example
+```python
+#options
+self.parser.add_argument(
+  "--dataroot",
+  type=str,
+  default="Yourdataroot",
+)
+```
+You can change the path here to use your datasets.
 
 ### Training
 Run the training script to start the UNIDS training process:
@@ -121,14 +130,13 @@ python "main_Intrusion Detector.py"
 
 #### Table of Contents
 
-- [README.md](#readmemd)
-  - [NAPH (Network-Aware Persistent Homology)](#naph-network-aware-persistent-homology)
-    - [Table of Contents](#table-of-contents)
-    - [Introduction](#introduction)
-    - [Requirements](#requirements)
-    - [Functions](#functions)
-      - [ph\_enc](#ph_enc)
-    - [Example](#example)
+- [NAPH (Network-Aware Persistent Homology)](#naph-network-aware-persistent-homology)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Requirements](#requirements)
+  - [Functions](#functions)
+    - [ph\_enc](#ph_enc)
+  - [Example](#example)
 
 #### Introduction
 
