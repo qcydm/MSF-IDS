@@ -50,9 +50,14 @@ Make sure to follow the steps above to ensure accurate and efficient data proces
 - **Clean Functionality**: The current session data can be cleared and the interface reset with a single click.
 - **Window Management**: The application window is user-friendly, offering the ability to minimize and an option to always stay on top of other windows for easy access.
 
+![1725351316777](https://github.com/user-attachments/assets/8c2ee313-9ce5-4c99-ad39-c08fff479373)
+The user iterface of our NAPH, with persistent topological analysis and learnable representations.
+
+### **Then we formally introduce the main body of our MSF-IDS.**
+
 ## Features
 - **Multi-Scale Analysis**: Captures traffic features at different scales using wavelet transformations.
-- **Self-Supervised Learning**: Employs self-expressiveness to enhance feature representation.
+- **Self-Supervised Learning**: Employs subspace clustering technique to enhance feature representation.
 - **Graph Neural Networks (GNNs)**: Utilizes graph convolutional networks for learning from graph-structured data.
 - **Spectral Clustering**: Integrates spectral clustering for unsupervised classification.
 - **TensorBoard Integration**: Provides real-time monitoring of training and evaluation metrics.
@@ -90,6 +95,8 @@ You can download above datasets used in this paper from the following URLs: [UQ 
 ### Configuration
 Modify the `args_set` in the script `options` to configure the system parameters according to your requirements，including changing datasets.
 
+#### Example
+
 ### Training
 Run the training script to start the UNIDS training process:
 ```bash
@@ -125,7 +132,7 @@ python "main_Intrusion Detector.py"
 
 #### Introduction
 
-NAPH, or Network-Aware Persistent Homology, is a comprehensive Python toolkit purpose-built for the analysis of temporal graphs through the application of persistent homology—a cutting-edge technique within the realm of Topological Data Analysis (TDA). This versatile suite equips researchers and developers with the means to distill significant topological features from dynamic graph data, features that can be harnessed for a range of machine learning applications such as graph classification, node classification, and link prediction. The library's compatibility with various graph representations, including those from PyG and networkx, ensures broad applicability and seamless integration into diverse analytical workflows.
+Our developed NAPH (Network-Aware Persistent Homology), is a comprehensive Python toolkit purpose-built for the analysis of temporal graphs through the application of persistent homology—a cutting-edge topological technique within the realm of Topological Data Analysis (TDA). This versatile suite equips researchers and developers with the means to distill significant topological features from dynamic graph data, features that can be harnessed for a range of machine learning applications such as graph classification, node classification, and link prediction. The library's compatibility with various graph representations, including those from PyG and networkx, ensures broad applicability and seamless integration into diverse analytical workflows.
 
 #### Requirements
 
