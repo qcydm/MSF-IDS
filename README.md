@@ -101,10 +101,10 @@ Modify the `args_set` in the script `options` to configure the system parameters
 self.parser.add_argument(
   "--dataroot",
   type=str,
-  default="Yourdataroot",
+  default="../CIC-ToN-IoT.pt",
 )
 ```
-You can change the path here to use your datasets.
+You can change the path at "default" to use your datasets.
 
 ### Training
 Run the training script to start the UNIDS training process:
